@@ -1,15 +1,8 @@
 import NewCategoryForm from "@/components/admin/new-category-form";
 import BackButton from "@/components/common/back-button";
-import { auth } from "@clerk/nextjs";
 import Image from "next/image";
-import { redirect } from "next/navigation";
 
 const Search = () => {
-  const { sessionClaims } = auth();
-
-  if (sessionClaims?.metadata.role !== "admin") {
-    redirect("/");
-  }
 
   return (
     <section className="flex w-full items-center justify-center">

@@ -67,7 +67,7 @@ export default function Footer() {
   return (
     <div>
       <div className="hidden md:block">
-        <footer className=" cursor-default items-center justify-center border-t border-neutral-900 bg-white pt-5 shadow-xl dark:border-primary dark:bg-[#181717] md:px-0 w-full 3xl:max-w-7xl mx-auto">
+        <footer className=" cursor-default items-center justify-center border-t border-neutral-900 bg-white pt-5 shadow-xl dark:border-primary dark:bg-[#0f1a18] md:px-0 w-full 3xl:max-w-7xl mx-auto">
           <section className="flex items-center justify-around gap-y-4 pb-5 shadow-xl">
             <Link href="/">
               <Image
@@ -109,7 +109,7 @@ export default function Footer() {
             </div>
           </section>
 
-          <div className="bg-zinc-200/60 px-4 py-6 dark:bg-[#111111]">
+          <div className="bg-zinc-200/60 px-4 py-6 dark:bg-[#1b2c28]">
             <section className="mx-auto flex items-center justify-center gap-3 text-center text-xs">
               <div className="flex w-full flex-col gap-1">
                 <h3 className="text-base font-medium uppercase">Categorias</h3>
@@ -157,7 +157,7 @@ export default function Footer() {
       </div>
 
       <div className="md:hidden">
-        <footer className="mx-auto w-full cursor-default items-center justify-center border-t border-neutral-900 bg-white pt-5 shadow-xl dark:border-primary dark:bg-[#181717] md:px-0">
+        <footer className="mx-auto w-full cursor-default items-center justify-center border-t border-neutral-900 bg-white pt-5 shadow-xl dark:border-primary dark:bg-[#0f1a18] md:px-0">
           <section className="flex flex-col items-center justify-around gap-y-4 pb-5 shadow-xl md:flex-row">
             <Link href="/">
               <Image
@@ -199,7 +199,7 @@ export default function Footer() {
             </div>
           </section>
 
-          <div className="bg-zinc-200/60 px-4 py-6 dark:bg-[#111111]">
+          <div className="bg-zinc-200/60 px-4 py-6 dark:bg-[#1b2c28]">
             <section className="mx-auto flex flex-col items-center justify-center gap-3 text-center text-xs md:flex-row">
               <div className="flex w-full flex-col gap-1">
                 <h3 className="text-base font-medium uppercase">Categorias</h3>

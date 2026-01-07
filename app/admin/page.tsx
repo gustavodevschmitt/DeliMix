@@ -1,18 +1,11 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { auth } from "@clerk/nextjs";
-import { redirect } from "next/navigation";
 import Image from "next/image";
 import BackButton from "@/components/common/back-button";
 import { MdAssignmentAdd, MdAddToPhotos } from "react-icons/md";
 import { BiSolidFoodMenu } from "react-icons/bi";
 
 const Admin = () => {
-  const { sessionClaims } = auth();
-
-  if (sessionClaims?.metadata.role !== "admin") {
-    redirect("/");
-  }
 
   return (
     <section className="flex w-full flex-col">

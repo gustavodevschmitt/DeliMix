@@ -1,4 +1,3 @@
-import { SignIn } from "@clerk/nextjs";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -16,7 +15,16 @@ export default function Page() {
           className="h-auto w-44 object-contain"
         />
       </Link>
-      <SignIn />
+
+      <div className="mt-10 max-w-md rounded-3xl bg-white/90 p-6 text-center shadow-xl backdrop-blur-lg dark:bg-black/40">
+        <h1 className="text-2xl font-bold text-foreground">
+          Login desnecessário
+        </h1>
+        <p className="mt-2 text-sm text-muted-foreground">
+          Navegue pelo cardápio completo sem precisar criar uma conta. Caso
+          precise de ajuda, fale conosco pelo WhatsApp.
+        </p>
+      </div>
     </div>
   );
 }
